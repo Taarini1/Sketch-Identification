@@ -3,7 +3,7 @@ classifier =  ml5.imageClassifier('DoodleNet');
 }
 
 function setup(){
-   canvas= createCanvas(500,400);
+   canvas= createCanvas(280,280);
     canvas.center();
     background("white");
 
@@ -23,7 +23,7 @@ classifier.classify(canvas,gotResult);
 function draw(){
 
     stroke('black');
-    strokeWeight(10);
+    strokeWeight(13);
     if(mouseIsPressed){
         line(pmouseX,pmouseY,mouseX,mouseY);
     }
