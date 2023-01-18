@@ -1,0 +1,52 @@
+body{
+    background:linear-gradient(rgb(1, 233, 144),rgb(33, 119, 190));
+}
+
+.title{
+    color:darkgreen;
+    font-family: 'Playfair Display', serif;
+    margin-left: 150px;
+
+}
+
+#show_sketch{
+float:right;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#myModal{
+    width:1000px;
+    margin-left: 350px;
+}
+
+
+#obj_name{
+    color:rgb(47, 0, 255);
+    font-size:25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#accuracy{
+    color:rgb(162, 0, 255);
+    font-size:25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+canvas{
+    border-radius: 90px;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-style:groove;
+    
+    animation-name:canvas-animate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes canvas-animate{
+    from{box-shadow: -4px 4px 100px rgb(255, 0, 234) ;}
+    to{box-shadow: -4px 4px 100px rgb(255, 30, 0) ;}
+}
